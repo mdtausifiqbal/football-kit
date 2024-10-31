@@ -23,8 +23,8 @@ body {
 .title {
     background-color: black;
     color: white;
-    margin: 1em 0;
-    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    padding: 0.5em;
 }
 
 .football_kit {
@@ -32,8 +32,9 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 1em;
     flex-direction: column;
+    gap: 1em;
 }
 
 .football_kit .preview {
@@ -44,44 +45,54 @@ body {
 }
 
 .controls {
+    width: 100%;
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-left: 1em;
 }
 
 .form-group {
     margin-bottom: 1.2em;
-    font-size: 1.2rem;
 }
 
 .form-group label {
     display: block;
 }
 
-.form-control[type="text"] {
-    font-size: 1.2rem;
+.color-input {
+    display: flex;
+    width: 100%;
+    gap: 0.5em;
+}
+
+.color-input .form-control[type="text"] {
+    flex: 1;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
     text-transform: uppercase;
 }
 
-.form-control[type="text"]:focus {
+.color-input .form-control[type="text"]:focus {
     border-bottom: 2px solid black;
 }
 
 .form-select {
-    font-size: 1.2rem;
     width: 100%;
 }
 
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 1024px) {
     html,
     body {
         height: 100vh;
+        font-size: 20px;
     }
     .football_kit {
         flex-direction: row;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 1.2rem;
     }
 }
