@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Football Kit</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Football Kit</h1>
+            <div class="football_kit">
+                <div class="preview">
+                    <div id="svg-container" style="display: none"></div>
+                    <canvas id="canvas" width="500" height="500"></canvas>
+                </div>
+                <div class="controls">
+                    <div class="form-group">
+                        <label for="dressPattern">Pattern:</label>
+                        <select
+                            name="dressPattern"
+                            id="dressPattern"
+                            class="form-select"
+                        >
+                            <option value="plain">Plain</option>
+                            <option value="half_and_half">Half and Half</option>
+                            <option value="striped">Striped</option>
+                            <option value="hoops">Hoops</option>
+                            <option value="sash">Sash</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="primaryColor">Primary Color:</label>
+                        <input
+                            type="text"
+                            name="primary"
+                            maxlength="7"
+                            class="form-control"
+                        />
+                        <input type="color" name="primary" id="primaryColor" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="secondaryColor">Secondary Color:</label>
+                        <input
+                            type="text"
+                            name="secondary"
+                            maxlength="7"
+                            class="form-control"
+                        />
+                        <input
+                            type="color"
+                            name="secondary"
+                            id="secondaryColor"
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tertiaryColor">Tertiary Color:</label>
+                        <input
+                            type="text"
+                            name="tertiary"
+                            maxlength="7"
+                            class="form-control"
+                        />
+                        <input
+                            type="color"
+                            name="tertiary"
+                            id="tertiaryColor"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<svg width="249" height="435" viewBox="0 0 249 435" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="tertiary" d="M205.617 0.92157H43.3502L0.821472 43.359V111.031H43.3306V247.664H205.617V111.031H248.169V43.383L205.617 0.92157Z" fill="#D9D9D9"/>
+<rect class="primary" x="48.3502" y="0.92157" width="28.9784" height="246.742" fill="#1FA775"/>
+<rect class="primary" x="171.662" y="0.92157" width="28.9784" height="246.742" fill="#1FA775"/>
+<rect class="primary" x="110.006" y="0.921631" width="28.9784" height="246.742" fill="#1FA775"/>
+<rect class="tertiary" x="205.346" y="93.6394" width="42.8234" height="17.2803" fill="#7F7F7F"/>
+<rect class="tertiary" x="0.526855" y="93.6394" width="42.8234" height="17.2803" fill="#7F7F7F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M82.3094 0.9216C82.3094 24.2203 101.197 43.1076 124.495 43.1076C147.794 43.1076 166.681 24.2203 166.681 0.92157L82.3094 0.9216Z" fill="#888888"/>
+<rect class="secondary" x="156.697" y="60.5807" width="8.69199" height="8.69199" fill="#9E9E9E"/>
+<rect class="secondary" x="169.65" y="60.5807" width="8.69199" height="8.69199" fill="#9E9E9E"/>
+<rect class="secondary" x="182.603" y="60.5807" width="8.69199" height="8.69199" fill="#9E9E9E"/>
+<path class="secondary" d="M162.151 94.1927V78.1721H185.841V94.1927L174.75 102.28L162.151 94.1927Z" fill="#9E9E9E"/>
+<path class="tertiary" d="M205.563 249.668H44.454V273.955L17.0894 415.908L38.9583 420.464L107.392 434.722L124.495 389.912L143.309 434.722L210.447 420.464L231.901 415.908L205.563 273.955V249.668Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M120.85 273.928L108.526 302.203C107.422 304.734 108.58 307.681 111.111 308.784C113.643 309.887 116.589 308.73 117.693 306.198L125.701 287.826L132.234 297.434C133.787 299.718 136.897 300.31 139.181 298.757C141.464 297.205 142.056 294.095 140.504 291.811L128.343 273.928H120.85Z" fill="white"/>
+<path d="M44.5866 274.066H67.9116L43.2409 421.043" stroke="#4F4F4F"/>
+<path d="M205.176 274.066H181.851L206.522 421.043" stroke="#4F4F4F"/>
+</svg>
